@@ -18,27 +18,56 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="p-5">
-    <div class="container d-flex flex-column min-vh-100" style="width: 90vw">
-      <header class="d-flex align-items-baseline mt-2 mb-2">
-        <a
-          href="#"
-          class="flex-grow-1 text-decoration-none text-black fs-4 fw-bold"
-          ><i class="fa-solid fa-truck-fast me-2"></i>SHOP</a
-        >
-        <a href="#" class="text-decoration-none me-3 text-black fw-semibold"
-          >Home</a
-        >
-        <a href="#" class="text-decoration-none me-3 text-black fw-semibold"
-          >Products</a
-        >
-        <a href="#" class="text-decoration-none me-3 text-black fw-semibold"
-          >About Us</a
-        >
-        <a href="#" class="text-decoration-none text-black fw-semibold"
-          >Contacts</a
-        >
-      </header>
+  <body class="p-3">
+    <div class="d-flex flex-column min-vh-100">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-semibold fs-3" href="#"
+            ><i class="fa-solid fa-truck-fast me-2"></i>SHOP</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
       <main class="d-flex flex-column flex-grow-1 my-3">
         <h3 class="my-3">Lorem ipsum dolor</h3>
         <p class="mb-4" style="text-align: justify">
@@ -53,9 +82,8 @@
           class="d-flex flex-wrap justify-content-evenly align-items-center gap-3"
         >
           <div
-            class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
+            class="card shadow-lg w-25 h-50border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -101,7 +129,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -147,7 +174,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -193,7 +219,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -239,7 +264,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -285,7 +309,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -331,7 +354,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -377,7 +399,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -423,7 +444,6 @@
           <div
             class="card shadow-lg w-25 h-50 border border-5 border-white mb-3"
           >
-            <!-- style="width: 18rem"-->
             <img
               src="https://plus.unsplash.com/premium_photo-1668972393852-4c1adf9687c3?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               class="card-img-top"
@@ -472,3 +492,4 @@
     </div>
   </body>
 </html>
+
